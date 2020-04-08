@@ -1,0 +1,30 @@
+{
+    "name": "zepaulo45/datalayer",
+    "description": "Abstração do Banco de Dados com Data Layer | PHP #002",
+    "type": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Paulo",
+            "email": "zepaulo45@hotmail.com",
+            "role": "Developer",
+            "homepage": "https://hox.com.br"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require":{
+        "coffeecode/datalayer": "1.1.*"
+    },
+    "minimum-stability": "stable"
+  
+}
